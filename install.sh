@@ -149,7 +149,7 @@ ff.write("<div id='wrap'>")
 ff.write("<h1>Bitcoin Node: MYIPADDRESS:8333<br \></h1>")
 ff.write("<h3>")
  
-ff.write("Last Update: " + time.strftime("%H:%M:%S %Y-%m-%d") + "<br \>\n")
+ff.write("Last Update: " + time.strftime("%H:%M:%S %Y-%m-%d %Z") + "<br \>\n")
 ff.write("Connections: " + str(info['connections']) + "<br \>\n")
 ff.write("Blocks: " + str(info['blocks']) + "<br \>\n")
 ff.write("Difficulty: " + str(info['difficulty']) + "<br \>\n")
